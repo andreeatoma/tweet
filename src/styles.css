@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app/vendor/semantic.min.css';
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background: #f4f8fb;
+}
+header {
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+	text-align: center;
+}
+.container_page {
+	max-width: 570px;
+	margin: auto;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}

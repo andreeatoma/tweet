@@ -1,0 +1,10 @@
+.app-card-image {
+	width: 540px;
+	height: 310px;
+	margin-bottom: 20px;
+}
+.app-card-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+}

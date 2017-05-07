@@ -1,0 +1,55 @@
+.search_input {
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+}
+.style_search_input {
+	width: 100%;
+	height: 60px;
+	padding-left: 15px;
+	border: none;
+	border-radius: 6px;
+	-webkit-box-shadow: 1px 2px 6px -2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 2px 6px -2px rgba(0,0,0,0.5);
+	box-shadow: 1px 2px 6px -2px rgba(0,0,0,0.5);
+}
+input.style_search_input::-webkit-input-placeholder {
+	color: #9fa5ab;
+	font-size: 18px;
+}
+input.style_search_input::-moz-placeholder {
+	color: #9fa5ab;
+	font-size: 18px;
+}
+input.style_search_input:-ms-input-placeholder {
+	color: #9fa5ab;
+	font-size: 18px;
+}
+.include_submit_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 160px;
+	height: 60px;
+	background: #4abce6;
+	border-radius: 0 6px 6px 0;
+	cursor: pointer;
+}
+.include_submit_button button, #subscription-controls button{
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
+#subscription-controls button {
+	color: #4abce6;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	/*box-shadow: 0 0 5px 0 rgba(81, 203, 238, 1);
+	border: none;*/
+}
